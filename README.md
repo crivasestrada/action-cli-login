@@ -19,6 +19,7 @@ Since this action requires user name and password which are sensitive pieces of 
 - `adminPassword` - store the password of that user in this.
 These secrets are encrypted and can only be used by GitHub actions. 
 
+
 ### Example workflow - CLI for Microsoft 365 Login
 On every `push` build the code and then login to Office 365 before deploying.
 
